@@ -30,7 +30,7 @@ this feature is licensed.
    </license>
 
    <url>
-      <update label="Coffee-Bytes Platform Support" url="https://github.com/stefaneidelloth/EclipseFolding/raw/master/update/"/>
+      <update label="Coffee-Bytes Platform Support" url="https://github.com/stefaneidelloth/EclipseFolding/tree/master/com.cb.platsupp.site"/>
    </url>
 
    <requires>
