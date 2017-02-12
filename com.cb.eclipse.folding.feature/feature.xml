@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.cb.eclipse.folding"
+      id="com.cb.eclipse.foldin.feature"
       label="Coffee Bytes Code Folding"
       version="1.0.5.a"
       provider-name="Coffee-Bytes"
-      primary="true">
+      plugin="com.cb.eclipse.folding">
    <install-handler/>
 
-   <description>
+   <description url="https://github.com/stefaneidelloth/EclipseFolding">
       The Coffee-Bytes Platform Support Folding functionality increases
 the user control of the folding editors in the Eclipse platform.
    </description>
@@ -49,6 +49,7 @@ this feature is licensed.
          id="com.cb.eclipse.folding"
          download-size="0"
          install-size="0"
-         version="1.0.5.a"/>
+         version="1.0.5.a"
+         unpack="false"/>
 
 </feature>
