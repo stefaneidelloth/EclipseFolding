@@ -1,0 +1,47 @@
+Coffee-Bytes Platform Support - Eclipse Code Folding Plug-in Changelog
+======================================================================
+Changes in version 1.0.5 (09.07.2004)
+-------------------------------------
+* Introduced Switchable Icon Themes
+* Introduced Last-Line Filtering Controls
+* Reworked preferences page (again!) to scale to number of options.
+* 1017712 - User Defined Folding Region at end of Compilation unit.
+
+Changes in version 1.0.4c (08.19.2004)
+--------------------------------------
+* Bug fixes to the user-defined folding support.
+
+Changes in version 1.0.4a (08.18.2004)
+--------------------------------------
+* First draft of user-defined folding regions
+** User defined start/end comments for defining the region
+   e.g.:
+   // [start]
+   public void someCodeHere() {
+     // ... some code here
+   }
+   // [end]
+** Protective checks to avoid user defined regions colliding with 
+   system defined regions.
+
+Changes in version 1.0.3 (08.08.2004)
+-------------------------------------
+* Fixed Multiple Performance Problems - vastly improved average file scan time.
+* 1004099 - Fixed Mismatched { } (brackets) bug.
+
+
+Changes in version 1.0.2 (07.30.2004)
+-------------------------------------
+* Complete re-write of the folding region reconciliation code.
+
+Changes in version 1.0.1 (07.23.2004)
+-------------------------------------
+* Added 'should fold' options in addition to 'should initially fold' options from 1.0.0
+* Added line comment folding support
+* Added Getter/Setter folding support
+* Fixed Minimum Lines restrictor
+* Vastly improved preferences page.
+
+Changes in version 1.0.0 (05.30.2004)
+-------------------------------------
+Initial Release

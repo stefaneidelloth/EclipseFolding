@@ -1,0 +1,11 @@
+Coffee-Bytes Platform Support - Eclipse Code Folding Plug-in
+============================================================
+Version 1.0.5, September 7th, 2004
+
+Homepage:
+  
+  http://www.coffee-bytes.com/servlet/PlatformSupport
+
+Bug Reports:
+
+  https://sourceforge.net/tracker/?atid=673254&group_id=111668&func=browse

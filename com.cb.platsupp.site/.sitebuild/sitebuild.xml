@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site-build
+      autobuild="false"
+      scrub-output="false"
+      use-console="true">
+   <feature id="com.cb.eclipse.folding" version="1.0.4.a"/>
+   <feature id="com.cb.eclipse.folding" version="1.0.4.b"/>
+   <feature id="com.cb.eclipse.folding" version="1.0.4.c"/>
+   <feature id="com.cb.eclipse.folding" version="1.0.5"/>
+   <feature id="com.cb.eclipse.folding" version="1.0.5.a"/>
+</site-build>

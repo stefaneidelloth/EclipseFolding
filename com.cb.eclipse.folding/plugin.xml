@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<plugin
+   id="com.cb.eclipse.folding"
+   name="Coffee Bytes Folding Plug-in"
+   version="1.0.5.a"
+   provider-name="Coffee Bytes"
+   class="com.cb.eclipse.folding.FoldingPlugin">
+
+   <runtime>
+      <library name="folding.jar">
+         <export name="*"/>
+      </library>
+   </runtime>
+   
+   <requires>
+      <import plugin="org.eclipse.core.runtime.compatibility"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.ui.editors"/>
+   </requires>
+   
+   <extension
+         point="org.eclipse.jdt.ui.foldingStructureProviders">
+      <provider
+            preferencesClass="com.cb.eclipse.folding.java.preferences.EnhancedFoldingPreferenceBlock"
+            class="com.cb.eclipse.folding.java.EnhancedJavaFoldingStructureProvider"
+            name="Coffee Bytes Java Folding"
+            id="com.cb.eclipse.folding.provider1"/>
+   </extension>
+   
+   
+   
+
+</plugin>

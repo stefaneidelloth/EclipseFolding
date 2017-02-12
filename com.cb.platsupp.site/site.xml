@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+
+   <description url="http://eclipse.coffee-bytes.com/update-site/">
+      Eclipse Update Site for Coffee-Bytes Platform Support features.
+   </description>
+   
+   <feature url="features/com.cb.eclipse.folding_1.0.5.a.jar" id="com.cb.eclipse.folding" version="1.0.5.a">
+      <category name="editor_support"/>
+   </feature>
+   <category-def name="editor_support" label="Editor Support">
+      <description>
+         Features that extend/improve the Eclipse editors
+      </description>
+   </category-def>
+</site>
