@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.cb.eclipse.folding_1.0.5.a.jar" id="com.cb.eclipse.folding" version="1.0.5.a">
+   <feature url="features/com.cb.eclipse.foldin.feature_1.0.5.a.jar" id="com.cb.eclipse.foldin.feature" version="1.0.5.a">
       <category name="com.cb.eclipse.folding"/>
    </feature>
    <category-def name="com.cb.eclipse.folding" label="com.cb.eclipse.folding"/>
