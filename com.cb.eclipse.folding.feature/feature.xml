@@ -7,8 +7,9 @@
       primary="true">
    <install-handler/>
 
-   <description url="http://www.coffee-bytes.com/servlet/PlatformSupport">
-      The Coffee-Bytes Platform Support Folding functionality increases the user control of the folding editors in the Eclipse platform.
+   <description>
+      The Coffee-Bytes Platform Support Folding functionality increases
+the user control of the folding editors in the Eclipse platform.
    </description>
 
    <copyright>
@@ -30,20 +31,18 @@ this feature is licensed.
    </license>
 
    <url>
-      <update label="Coffee-Bytes Platform Support" url="https://github.com/stefaneidelloth/EclipseFolding/tree/master/com.cb.platsupp.site"/>
+      <update label="Coffee-Bytes Platform Support" url="https://github.com/stefaneidelloth/EclipseFolding/raw/master/com.cb.platsupp.site"/>
    </url>
 
    <requires>
-      <import plugin="org.eclipse.ui"/>
-      <import plugin="org.eclipse.core.runtime.compatibility"/>
-      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
       <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.editors"/>
       <import plugin="org.eclipse.ui.workbench.texteditor"/>
       <import plugin="org.eclipse.jdt.core"/>
-      <import plugin="org.eclipse.ui.editors"/>
-      <import plugin="org.eclipse.core.resources"/>
-      <import plugin="org.eclipse.ant.core"/>
-      <import plugin="org.eclipse.ant.ui"/>
+      <import plugin="org.eclipse.jdt.ui"/>
    </requires>
 
    <plugin
